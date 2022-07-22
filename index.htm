@@ -1,80 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
-         action=""><h1>Zoo Keeper Application Form</h1>
-            <p><i>Please complete the form.Mandatory fields are marked with a <sup style="color:red">*</sup></i></p>
-        <fieldset>
-            <legend><b>CONTACT DETAILS</b></legend>
-            <table> 
-                
-                <tr><th><label for="name">Name <sup style="color:red">*</sup></label></th>
-                    <td><input type="text" required id="name" placeholder="Məs:İlham"></td></tr>
-                
-                <tr><th><label for="tel">Telefone <sup>*</sup></label></th>
-                    <td><input type="tel" id="tel" placeholder="Məs:050 *** ** **"></td></tr>
-                <th>
-                <label for="email">Email <sup style="color:red">*</sup></label></th>
-                <td><input type="email" required id="email" placeholder="Məs:məsələn@gmail.com" ></td>
-                </table>
-         </fieldset>
 
-        <br><br> 
+<body>
+
+    <h1>Zoo Keeper Application Form</h1>
+    <p><i>Please complete the form.Mandatory fields are marked with a <sup style="color:red">*</sup></i></p>
+    <fieldset>
+        <legend><b>CONTACT DETAILS</b></legend>
+        <table>
+
+            <tr>
+                <th><label for="name">Name <sup style="color:red">*</sup></label></th>
+                <td><input type="text" required id="name" placeholder="Məs:İlham"></td>
+            </tr>
+
+            <tr>
+                <th><label for="tel">Telefone <sup>*</sup></label></th>
+                <td><input type="tel" id="tel" placeholder="Məs:050 *** ** **"></td>
+            </tr>
+            <th><label for="email">Email <sup style="color:red">*</sup></label></th>
+            <td><input type="email" required id="email" placeholder="Məs:məsələn@gmail.com"></td>
+        </table>
+    </fieldset>
+
+    <br>
 
     <fieldset>
-        <br>
         <legend><b>PERSONAL INFORMATION</b></legend>
-        <label for="Age"><sup style="color:red">*</sup>Age</label>
-        <input type="number" required id="Age" min="18"
-        max="60">
-        <br><br>
-        <label for="tel">Gender</label>
-        <select name="Gender" id="">
-            <option value="1" selected disabled>Female</option>
-            <option value="2">female</option>
-            <option value="3">male</option>
-        </select>
-        <br><br>
-        <label for="textarea">When did you first know you wanted to be a zoo-keeper?</label> <br>
-        <textarea name="" id="textarea" cols="30" rows="10" style="resize:none"></textarea>
+        <table>
+
+            <tr>
+                <th><label for="Age"><sup style="color:red">*</sup>Age</label></th>
+                <td><input type="number" required id="Age" min="18" max="60"></td>
+            </tr>
+
+            <tr>
+                <th><label for="tel">Gender</label></th>
+                <td><select name="Gender" id="">
+                        <option value="1" selected disabled>Female</option>
+                        <option value="2">female</option>
+                        <option value="3">male</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <th><label for="textarea">When did you <br> first know you <br> wanted to be a <br> zoo-keeper?</label>
+                </th>
+                <td><textarea name="" id="textarea" cols="30" rows="10" style="resize:none"></textarea></td>
+            </tr>
+
+        </table>
+
     </fieldset>
-    
+
     <br><br>
 
     <fieldset>
         <legend><b>PICK YOUR FAVORITY ANIMALS</b></legend>
         
-        <input type="checkbox"   id="zebra">
-        <label for="zebra">Zebra</label>
-    
-        <input type="checkbox"   id="cat">
-        <label for="cat">Cat</label>
+            <tr><input type="checkbox" id="zebra">
+                <label for="zebra">Zebra</label>
+            </tr>
         
-        <input type="checkbox"   id="anakonda">
-        <label for="anakonda">Anakonda</label>
-        
-        <input type="checkbox"   id="human">
-        <label for="human">Human</label>
-        
-        <input type="checkbox"   id="elephant">
-        <label for="elephant">Elephant</label>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="checkbox"   id="wildbeest">
-        <label for="wildbeests">wildbeest</label>
-        
-        <input type="checkbox"   id="pigeon">
-        <label for="pigeon">Pigeon</label>
-        
-        <input type="checkbox"   id="crab">
-        <label for="crab">Crab</label>
-        
-    </fieldset>   
+            <tr><input type="checkbox" id="cat">
+                <label for="cat">Cat</label>
+            </tr>
+           
+
+            <tr><input type="checkbox" id="anakonda">
+                <label for="anakonda">Anakonda</label>
+            </tr>
+
+            <tr><input type="checkbox" id="human">
+                <label for="human">Human</label>
+            </tr>
+        <br><br>
+            <tr><input type="checkbox" id="elephant">
+                <label for="elephant">Elephant</label>
+            </tr>
+
+            <tr><input type="checkbox" id="wildbeest">
+                <label for="wildbeests">Wildbeest</label>
+            </tr>
+
+            <tr><input type="checkbox" id="pigeon">
+                <label for="pigeon">Pigeon</label>
+            </tr>
+
+            <tr><input type="checkbox" id="crab">
+                <label for="crab">Crab</label>
+            </tr>
+        </table>
+
+    </fieldset>
 </body>
+
 </html>
